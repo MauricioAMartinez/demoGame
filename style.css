@@ -2,6 +2,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+  	flex-wrap: wrap;
 }
 
 .container-machine{
@@ -42,3 +43,22 @@ button:active {
 	position:relative;
 	top:1px;
 }
+
+@media only screen and (max-width: 600px) {
+	img{
+		width: 150px;
+		height: 100px;
+	}
+	button{
+padding: 10px 
+	}
+	.container-machine{
+		background-color: rgb(215, 223, 223);
+		padding: 15px;
+	}
+	.container-user{
+		background-color: rgb(215, 223, 223);
+		padding: 15px;
+	}
+
+  }
